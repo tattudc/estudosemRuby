@@ -1,0 +1,28 @@
+puts "Operadores sem variaveis"
+puts "A soma é #{5 + 2}"
+puts "A subtração é #{5 - 2}"
+puts "A multiplicação é #{5 * 2}"
+puts "A divisão é #{5 / 2}"
+puts "O módulo é #{5 % 2}"
+puts "A potência é #{5 ** 2}"
+puts "----------------------------"
+puts "Operadores com variaveis"
+a = 10
+b = 2
+puts "A soma é #{a + b}"
+puts "A subtração é #{a - b}"
+puts "A multiplicação é #{a * b}"
+puts "A divisão é #{a / b}"
+puts "O módulo é #{a % b}"
+puts "A potência é #{a ** b}"
+puts "----------------------------"
+puts "Operadores com entradas do usuário"
+puts "Entre com dois numeros inteiros"
+a = gets.chomp.to_i
+b = gets.chomp.to_i
+puts "A soma é #{a + b}"
+puts "A subtração é #{a - b}"
+puts "A multiplicação é #{a * b}"
+puts "A divisão é #{a / b}"
+puts "O módulo é #{a % b}"
+puts "A potência é #{a ** b}"
